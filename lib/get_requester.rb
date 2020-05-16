@@ -18,6 +18,6 @@ class GetRequester
   end
   
   def parse_json 
-    hashes = JSON.prase(self.get_response_body)
+    hashes = JSON.parse(self.get_response_body)
   end
 end
